@@ -33,7 +33,7 @@ The program logic is based on a timed sequence of movements to complete a full p
 ---
 
 ### 🪧 Notes and Disclaimers
-The data and values presented here (like the 4.3-second duration) are specific to my robot and the proposed challenge arena. These values may vary depending on the robot and the environment.
+The data and values presented here are specific to my robot and the proposed challenge arena. These values may vary depending on the robot and the environment.
 
 ---
 
