@@ -8,6 +8,18 @@ The simplest way to do this is by using an IDE that already includes a compiler.
 
 ---
 
+### 📂 How the Projects Are Organized
+
+To help you navigate the content, each folder for this course is organized using the following structure:
+
+* **Folder Naming:** `programminglanguage-topic`
+* **File Naming:** Inside each folder, you will find files with simple and direct names that describe their purpose.
+* **Problem Statement:** At the end of each source code file, you will find a comment block containing the full problem statement or challenge that the code was designed to solve.
+
+Your own project or challenge might be different, but I'll be incredibly grateful if you use my content as a foundation for learning. Keep coding, and you'll become a giant in your own right!
+
+---
+
 ### 🚀 Guide to Running the C++ Projects
 
 To compile and run the code from this repository, the easiest path is to install Code::Blocks, which comes with everything you need.
