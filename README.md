@@ -16,20 +16,63 @@ To make navigation easier, the repository is organized by semesters and subjects
 
 * **`algorithms-i/` (Algorithms I):**
     * Introduction to algorithms.
+    * Use of pseudocode in portugol.
     * Calculation and data processing concepts.
-    * Conditional Structures: `if`/`else`, nested `if`, `switch`/`case` (using pseudocode/Portugol).
-    * Repetition Structures: `while`, `do`/`while` (`repeat`), `for`.
-    * Homogeneous Compound Variables: Arrays (`vectors`) and matrices.
-    * And, of course, plenty of programming logic!
+    * Conditional Structures: `se`/`senao`, `se aninhado`, `escolha`.
+    * Repetition Structures: `enquanto`, `repita`, `para`.
+    * Homogeneous Compound Variables: `vetor` and `matriz`.
 
 * **`programming-lab-i/` (Programming Lab I):**
     * Introduction to the C language.
     * Basic concepts: calculation and data processing.
-    * Conditional Structures: `if`, `else`, `else if`, `switch case`.
+    * Conditional Structures: `if`, `else`, `if nested`, `switch case`.
     * Repetition Structures: `while`, `do while`, `for`.
-    * Manipulation of Homogeneous Compound Variables: Arrays (`vectors`) and matrices.
+    * Manipulation of Homogeneous Compound Variables: `vectors` and `matrices`.
 
-*(Sections for upcoming semesters will be added as the course progresses).*
+### 🎓 2nd Semester
+
+* **`algorithms-ii/` (Algorithms II):**
+    * Quick review of all Algorithms I topics.
+    * Manipulation of Heterogeneous Compound Variables: `registro`.
+    * Introduction to Modularity.
+    * Parameter Passing.
+    * Variable Scope: Global and Local Variables.
+    * Manipulation of Procedures: functions that do not return a value.
+    * Function manipulation by value.
+    * Function manipulation by reference.
+
+* **`programming-lab-ii/` (Programming Lab II):**
+    * Introduction to the C++ language.
+    * Review of Programming Lab I concepts, transitioning from C to C++.
+    * String manipulation.
+    * Introduction to Modularity.
+    * Parameter Passing.
+    * Variable Scope: Global and Local Variables.
+    * Functions that do not return a value: void functions.
+    * Functions with pass-by-value.
+    * Functions with pass-by-reference.
+    * File manipulation.
+
+* **`robotics-lab-i/` (Robotics I):**
+    * Introduction to robotics using LEGO EV3.
+    * Motor usage and control.
+    * Sensor usage: color, touch, ultrasonic and gyroscope.
+    * Block-based programming with EV3 Classroom.
+    * Programming logic applied to robotics.
+    * Variable conditioning, calculations, and custom My Blocks.
+    * Proposed challenges to solve with an autonomous robot.
+
+---
+
+*(The 3rd Semester section is planned for addition around March 2026. Stay tuned! 📅)*
+
+---
+
+### 📝 Notes and Usage Information
+
+All code within this repository was designed and structured based on my own logic during my learning process. However, feel free to download and modify it as you wish for your own studies.
+
+Each major section corresponding to a course subject will contain its own `README.md` file, providing specific instructions on how to download and use those particular files, such as necessary software and step-by-step compilation instructions.
 
 ---
 
