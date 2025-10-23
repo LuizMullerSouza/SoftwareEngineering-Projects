@@ -1,8 +1,8 @@
-# 🖥️ 2nd Semester - Programming Lab II
+# 🖥️ 1st Semester - Programming Lab I
 
-Hello! This folder contains the projects and exercises I developed for the Programming Lab II course during the second semester of my Software Engineering degree, using the **C++ language**.
+Hello! This folder contains the projects and exercises I developed for the Programming Lab I course during the first semester of my Software Engineering degree, using the **C language**.
 
-Unlike interpreted languages, C++ is a **compiled** language. This means that to run the code, you first need a special program called a **compiler** to transform the source code (`.cpp`) into an executable file (`.exe` on Windows).
+Unlike interpreted languages, C is a **compiled** language. This means that to run the code, you first need a special program called a **compiler** to transform the source code (`.c`) into an executable file (`.exe` on Windows).
 
 The simplest way to do this is by using an IDE that already includes a compiler. For these projects, the recommendation is **Code::Blocks**.
 
@@ -20,7 +20,7 @@ Your own project or challenge might be different, but I'll be incredibly gratefu
 
 ---
 
-### 🚀 Guide to Running the C++ Projects
+### 🚀 Guide to Running the C Projects
 
 To compile and run the code from this repository, the easiest path is to install Code::Blocks, which comes with everything you need.
 
@@ -34,7 +34,7 @@ Git is the system we use to manage and share code.
 3.  **Run the Installation:** Open the file you downloaded. You can simply click "Next" through all the windows, keeping the default options.
 4.  **Verify the Installation:** After it's finished, open a new terminal (like Git Bash on Windows) and type `git --version`. If the Git version appears, the installation was a success!
 
-**B) C++ Environment Installation (Required)**
+**B) C Environment Installation (Required)**
 
 The instructions vary depending on your operating system.
 
@@ -47,7 +47,7 @@ You can install Code::Blocks and the compiler all at once.
 
 **1.2 For macOS Users:**
 
-The process has two parts: installing Apple's command-line tools (which include the Clang C++ compiler) and then installing Code::Blocks.
+The process has two parts: installing Apple's command-line tools (which include the Clang C compiler) and then installing Code::Blocks.
 1.  **Install the Compiler (Xcode Command Line Tools):**
     * Open the **Terminal** app (you can find it in `Applications/Utilities`).
     * Type the following command and press Enter:
@@ -55,7 +55,7 @@ The process has two parts: installing Apple's command-line tools (which include 
       xcode-select --install
       ```
     * A pop-up window will appear. Click "Install" and follow the instructions.
-    * To verify it worked, type `clang --version` in the terminal. If the compiler version appears, you're all set.
+    * To verify it worked, type `clang --version` in the terminal. If a compiler version appears, you're all set.
 2.  **Install Code::Blocks:**
     * Go to the official website: [www.codeblocks.org/downloads/binaries](http://www.codeblocks.org/downloads/binaries/).
     * In the "Mac OS X" section, click the link to download the `.dmg` file.
@@ -109,11 +109,11 @@ With everything ready, let's run some code:
 1.  Open **Code::Blocks**.
 2.  In the top menu, go to `File > Open...`.
 3.  Navigate to the project folder you want to test (e.g., `.../folder/subject/content/`).
-4.  Select one of the files with the `.cpp` extension (e.g., `file-name.cpp`).
-5.  With the code open, look for the **"Build and run"** button in the toolbar.
+4.  Select one of the files with the **`.c`** extension (e.g., `file-name.c`).
+5.  With the code open, look for the **"Build and run"** button in the toolbar (icon with a gear and a green play triangle).
 6.  **Done!** Code::Blocks will compile the code and open a black console window where the program will run and you can interact with it.
 
-Now you are ready to explore and test all the C++ projects!
+Now you are ready to explore and test all the C projects!
 
 ---
 
