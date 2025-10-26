@@ -1,4 +1,4 @@
-# 💡 2nd Semester - Robotics Lab I
+# 🤖 2nd Semester - Robotics Lab I
 ### Projects with LEGO MINDSTORMS EV3
 
 Hello! Documented here are all the files and projects I developed for the Robotics I course, part of my Software Engineering degree at UNIGRAN.
