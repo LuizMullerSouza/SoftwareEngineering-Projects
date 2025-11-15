@@ -22,7 +22,7 @@ inicio
    ate (n < 0)
 
    // Saída de dados
-   Escreval()
+   Escreval
    Escreval("Ao total foram digitados ", digitados, " números")
 
 // Fim da execução
