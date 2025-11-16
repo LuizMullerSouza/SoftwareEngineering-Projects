@@ -2,9 +2,9 @@ algoritmo "CorretorDeGabarito"
 
 // Variáveis
 var
-   respostas: vetor de [1..100, 1..10] de caractere
-   gabarito: vetor de [1..10] de caractere
-   resultado: vetor de [1..100] de inteiro
+   respostas: vetor [1..100, 1..10] de caractere
+   gabarito: vetor [1..10] de caractere
+   resultado: vetor [1..100] de inteiro
    i, j: inteiro
 
 // Início
