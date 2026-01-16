@@ -21,7 +21,7 @@ int main() {
     // Cálculo
     remainder = number % 3;
 
-    // Lógica condicional para p resultado
+    // Lógica condicional para o resultado
     if (remainder == 0) {
         printf("\nO número %d É divisível por 3.\n", number);
     } else {
