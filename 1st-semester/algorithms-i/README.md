@@ -14,13 +14,13 @@ Para te ajudar a navegar pelo conteúdo, cada pasta para esta disciplina está o
 
 * **Nome da Pasta:** `linguagemdeprogramacao-topico`
 * **Nome do Arquivo:** Dentro de cada pasta, você encontrará arquivos com nomes simples e diretos que descrevem seu propósito.
-* **Enunciado do Problema:** Ao final de cada arquivo de código-fonte (`.alg`), você encontrará um bloco de comentário contendo o enunciado completo do problema ou o desafio que o código foi projetado para resolver.
+* **Enunciado do Problema:** Ao final de cada arquivo de código-fonte, você encontrará um bloco de comentário contendo o enunciado completo do problema ou o desafio que o código foi projetado para resolver.
 
 Seu próprio projeto ou desafio pode ser diferente, mas ficarei imensamente grato se você usar meu conteúdo como base para aprendizado. Continue codando, e você se tornará um gigante por mérito próprio!
 
 ---
 
-### 🚀 Guia para Executar os Projetos em Portugol
+### Guia para Executar os Projetos em Portugol
 
 Para executar os algoritmos deste repositório, o caminho mais fácil é usar o Visualg.
 

@@ -20,7 +20,7 @@ Your own project or challenge might be different, but I'll be incredibly gratefu
 
 ---
 
-### 🚀 Guide to Running the C++ Projects
+### Guide to Running the C++ Projects
 
 To compile and run the code from this repository, the easiest path is to install Code::Blocks, which comes with everything you need.
 

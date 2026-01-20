@@ -8,11 +8,11 @@ Everything here represents projects developed along this great journey, from the
 
 ---
 
-## 🧭 What to Find in Each Section?
+## 🔍 What to Find in Each Section?
 
 To make navigation easier, the repository is organized by semesters and subjects. Here's what to expect in each folder:
 
-### 🎓 1st Semester
+### ‣ 1st Semester
 
 * **`algorithms-i/` (Algorithms I):**
     * Introduction to algorithms; Use of pseudocode in portugol; Calculation and data processing concepts; Conditional Structures: se/senao, se aninhado, escolha; Repetition Structures: enquanto, repita, para; Homogeneous Compound Variables: vetor and matriz.
@@ -22,7 +22,7 @@ To make navigation easier, the repository is organized by semesters and subjects
 
 ---
 
-### 🎓 2nd Semester
+### ‣ 2nd Semester
 
 * **`algorithms-ii/` (Algorithms II):**
     * Quick review of all Algorithms I topics; Manipulation of Heterogeneous Compound Variables: registro; Introduction to Modularity; Parameter Passing; Variable Scope: Global and Local Variables; Manipulation of Procedures: functions that do not return a value; Function manipulation by value; Function manipulation by reference; Manipulating recursive functions.
@@ -35,7 +35,7 @@ To make navigation easier, the repository is organized by semesters and subjects
 
 ---
 
-*(The 3rd Semester section is planned for addition around March 2026. Stay tuned! 📅)*
+*(The 3rd Semester section is planned for addition around March 2026. Stay tuned!)*
 
 ---
 

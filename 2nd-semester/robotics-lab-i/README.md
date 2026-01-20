@@ -7,7 +7,7 @@ This repository was created over a semester with the goal of visualizing, sharin
 
 ---
 
-### 🚀 Want to Test the Code? Follow the Information Guide!
+### Want to Test the Code? Follow the Information Guide!
 
 To help you experiment, modify, and run these projects on your own robot, I've prepared a simple and complete guide below. To ensure everything works perfectly, let's start by setting up your environment.
 
