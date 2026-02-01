@@ -31,9 +31,23 @@ int main() {
         }
     }
 
-    // Exibição dos resultados
-    printf("\nTotal de pessoas com menor idade: %d\n", minorCount);
-    printf("Total de pessoas com maior idade: %d\n", adultCount);
+    // Lógica condicional para exibição do resultado
+    if (minorCount == 0) {
+        printf("\nTodas as pessoas digitadas são maiores de idade!");
+        printf("\nTotal de pessoas menores de idade: 0 pessoas\n");
+    } else if (adultCount == 0) {
+        printf("\nTodas as pessoas digitadas são menores de idade!");
+        printf("\nTotal de pessoas maiores de idade: 0 pessoas\n");
+    } else if (minorCount == 1) {
+        printf("\nApenas uma pessoa é menor de idade");
+        printf("\nTotal de pessoas maiores de idade: %d pessoas\n", adultCount);
+    } else if (adultCount == 1) {
+        printf("\nTotal de pessoas menores de idade: %d pessoas", minorCount);
+        printf("\nApenas uma pessoa é maior de idade\n");
+    } else {
+        printf("\nTotal de pessoas menores de idade: %d pessoas", minorCount);
+        printf("\nTotal de pessoas maiores de idade: %d pessoas\n", adultCount);
+    }
 
     // Executado com sucesso
     return 0;
