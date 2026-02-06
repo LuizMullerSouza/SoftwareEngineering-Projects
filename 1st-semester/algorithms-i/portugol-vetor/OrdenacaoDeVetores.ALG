@@ -8,8 +8,9 @@ var
 
 // Início
 inicio
+
+   // Loop para ler o vetor 1 com cópia para S
    Escreval("--- Preenchendo o Vetor 1 ---")
-   // Loop para ler Vetor 1 e já copiar para S (posições 1 a 10)
    para i <- 1 ate 10 passo 1 faca
       Escreva("Digite o ", i, "º número: ")
       Leia(vet1[i])
@@ -18,8 +19,9 @@ inicio
    Escreval("Vetor 1 preenchido com sucesso!")
 
    Escreval
+   
+   // Loop para ler o vetor 2 com cópia para S
    Escreval("--- Preenchendo o Vetor 2 ---")
-   // Loop para ler Vetor 2 e copiar para S (posições 11 a 20)
    para i <- 1 ate 10 passo 1 faca
       Escreva("Digite o ", i, "º número: ")
       Leia(vet2[i])
@@ -28,14 +30,13 @@ inicio
    Escreval("Vetor 2 preenchido com sucesso!")
 
    Escreval
+   
    Escreval("Ordenando Vetor S...")
 
-   // Algoritmo de Ordenação (Selection Sort Simplificado)
-   // i vai até 19 (penúltimo), j vai de i+1 até 20 (último)
+   // Loop para realizar a ordenação do vetor
    para i <- 1 ate 19 passo 1 faca
       para j <- i + 1 ate 20 passo 1 faca
 
-         // Se o valor atual for maior que o próximo, troca (Crescente)
          se (s[i] > s[j]) entao
             aux <- s[i]
             s[i] <- s[j]
@@ -58,7 +59,8 @@ inicio
 // Fim da execução
 fimalgoritmo
 
-// Escrever um algoritmo em PORTUGOL que lê 2 vetores de tamanho 10.
-// Crie, a seguir, um vetor S de 20 posições que contenha os elementos
-// dos outros 2 vetores em ordem crescente. Obs.: copie primeiro os
-// valores para o vetor S para depois ordená-lo.
+// Escrever um algoritmo em PORTUGOL que lê 2 vetores de
+// tamanho 10.  Crie, a seguir, um vetor S de 20 posições
+// que contenha os elementos dos outros 2 vetores em ordem
+// crescente. Obs.: copie primeiro os valores para o vetor
+// S para depois ordená-lo.
