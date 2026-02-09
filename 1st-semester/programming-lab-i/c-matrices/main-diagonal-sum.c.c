@@ -3,7 +3,7 @@
 #include <locale.h>
 
 // Constante
-#define TAM 5
+#define SIZE 5
 
 // Função principal
 int main() {
@@ -12,7 +12,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrixA[TAM][TAM], mainDiagonalSum = 0, i, j;
+    int matrixA[SIZE][SIZE], mainDiagonalSum = 0, i, j;
 
     // Título
     printf("SOMADOR DOS ELEMENTOS DA DIAGONAL PRINCIPAL\n\n");
@@ -20,8 +20,8 @@ int main() {
     printf("Preencha a Matriz A com Inteiros - 5x5...\n\n");
 
     // Loop para entrada de dados e soma da diagonal principal
-    for (i = 0; i < TAM; i++) {
-        for (j = 0; j < TAM; j++) {
+    for (i = 0; i < SIZE; i++) {
+        for (j = 0; j < SIZE; j++) {
 
             printf("[%d][%d] = ", i + 1, j + 1);
             scanf("%d", &matrixA[i][j]);

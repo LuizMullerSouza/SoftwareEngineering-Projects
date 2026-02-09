@@ -3,7 +3,7 @@
 #include <locale.h>
 
 // Constante
-#define TAM 5
+#define SIZE 5
 
 // Função principal
 int main() {
@@ -12,7 +12,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrixA[TAM][TAM], x, i, j;
+    int matrixA[SIZE][SIZE], x, i, j;
 
     // Título
     printf("SOMADOR DE MATRIZ POR ELEMENTO X\n\n");
@@ -20,8 +20,8 @@ int main() {
     printf("Preencha a Matriz A com Inteiros - 5x5...\n\n");
 
     // Loop para entrada e leitura de dados
-    for (i = 0; i < TAM; i++) {
-        for (j = 0; j < TAM; j++) {
+    for (i = 0; i < SIZE; i++) {
+        for (j = 0; j < SIZE; j++) {
 
             printf("[%d][%d] = ", i + 1, j + 1);
             scanf("%d", &matrixA[i][j]);
@@ -37,11 +37,11 @@ int main() {
     printf("\nMatriz A - Preenchida\n\n");
 
     // Exibição da matriz original
-    for (i = 0; i < TAM; i++) {
+    for (i = 0; i < SIZE; i++) {
 
         printf("[\t");
 
-        for (j = 0; j < TAM; j++) {
+        for (j = 0; j < SIZE; j++) {
             printf("%d ", matrixA[i][j]);
         }
 
@@ -51,11 +51,11 @@ int main() {
     printf("\nMatriz A - Modificada (A + X)\n\n");
 
     // Loop de modificação e exibição da matriz
-    for (i = 0; i < TAM; i++) {
+    for (i = 0; i < SIZE; i++) {
 
         printf("[\t");
 
-        for (j = 0; j < TAM; j++) {
+        for (j = 0; j < SIZE; j++) {
 
             // Adiciona X ao elemento atual
             matrixA[i][j] += x;

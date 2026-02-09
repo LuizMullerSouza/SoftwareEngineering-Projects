@@ -12,29 +12,29 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrixA[SIZE][SIZE], x, i, j;
+    int matrix[SIZE][SIZE], multiplier, i, j;
 
     // Título
-    printf("SOMADOR DE SEGUNDA COLUNA POR ELEMENTO X\n\n");
+    printf("MULTIPLICADOR DE SEGUNDA COLUNA POR ELEMENTO X\n\n");
 
-    printf("Preencha a Matriz A com Inteiros - 5x5...\n\n");
+    printf("Preencha a Matriz - %dx%d\n\n", SIZE, SIZE);
 
     // Loop para entrada e leitura de dados
     for (i = 0; i < SIZE; i++) {
         for (j = 0; j < SIZE; j++) {
 
             printf("[%d][%d] = ", i + 1, j + 1);
-            scanf("%d", &matrixA[i][j]);
+            scanf("%d", &matrix[i][j]);
         }
 
         printf("\n");
     }
 
-    // Leitura do valor somador
-    printf("Digite um valor inteiro para X: ");
-    scanf("%d", &x);
+    // Leitura do valor multiplicador
+    printf("Digite o valor do Multiplicador - X: ");
+    scanf("%d", &multiplier);
 
-    printf("\nMatriz A - Preenchida\n\n");
+    printf("\nMatriz A - Original\n\n");
 
     // Exibição da matriz original
     for (i = 0; i < SIZE; i++) {
@@ -42,13 +42,13 @@ int main() {
         printf("[\t");
 
         for (j = 0; j < SIZE; j++) {
-            printf("%d ", matrixA[i][j]);
+            printf("%d ", matrix[i][j]);
         }
 
         printf("\t]\n");
     }
 
-    printf("\nMatriz A - Modificada (Segunda Coluna + X)\n\n");
+    printf("\nMatriz A - Modificada (Segunda Coluna * %d)\n\n", multiplier);
 
     // Loop de modificação e exibição da matriz
     for (i = 0; i < SIZE; i++) {
@@ -57,12 +57,12 @@ int main() {
 
         for (j = 0; j < SIZE; j++) {
 
-            // Lógica condicional para verificar se está na segunda coluna
+            // Lógica condicional para modificar segunda coluna
             if(j == 1){
-                matrixA[i][j] += x;
+                matrix[i][j] *= multiplier;
             }
 
-            printf("%d ", matrixA[i][j]);
+            printf("%d ", matrix[i][j]);
         }
 
         printf("\t]\n");
@@ -73,7 +73,7 @@ int main() {
 }
 
 /*
-    Faça um programa para ler uma matriz 5x5 de números inteiros e ler um
-    número inteiro x. A seguir, o programa deve somar todos os elementos da
-    segunda coluna da matriz com x e exibir a matriz modificada.
+    Faça um programa para ler uma matriz 5x5 de números inteiros e ler um número
+    inteiro x. A seguir, o programa deve multiplicar os elementos da segunda coluna
+    da matriz por x e exibir a matriz modificada.
 */
