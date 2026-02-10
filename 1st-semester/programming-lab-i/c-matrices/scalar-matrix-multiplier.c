@@ -12,7 +12,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrixA[SIZE][SIZE], x, i, j;
+    int matrixA[SIZE][SIZE], multiplier, i, j;
 
     // Título
     printf("MULTIPLICADOR DE MATRIZ POR ELEMENTO X\n\n");
@@ -32,7 +32,7 @@ int main() {
 
     // Leitura do valor multiplicador
     printf("Digite um valor inteiro para X: ");
-    scanf("%d", &x);
+    scanf("%d", &multiplier);
 
     printf("\nMatriz A - Preenchida\n\n");
 
@@ -57,7 +57,7 @@ int main() {
 
         for (j = 0; j < SIZE; j++) {
 
-            matrixA[i][j] *= x;
+            matrixA[i][j] *= multiplier;
 
             printf("%d ", matrixA[i][j]);
         }

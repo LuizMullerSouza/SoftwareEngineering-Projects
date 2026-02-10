@@ -12,7 +12,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrixA[SIZE][SIZE], x, i, j;
+    int matrixA[SIZE][SIZE], adder, i, j;
 
     // Título
     printf("SOMADOR DE SEGUNDA COLUNA POR ELEMENTO X\n\n");
@@ -32,7 +32,7 @@ int main() {
 
     // Leitura do valor somador
     printf("Digite um valor inteiro para X: ");
-    scanf("%d", &x);
+    scanf("%d", &adder);
 
     printf("\nMatriz A - Preenchida\n\n");
 
@@ -59,7 +59,7 @@ int main() {
 
             // Lógica condicional para verificar se está na segunda coluna
             if(j == 1){
-                matrixA[i][j] += x;
+                matrixA[i][j] += adder;
             }
 
             printf("%d ", matrixA[i][j]);

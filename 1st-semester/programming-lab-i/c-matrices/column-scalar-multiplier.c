@@ -12,7 +12,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     // Variáveis
-    int matrix[SIZE][SIZE], multiplier, i, j;
+    int matrixA[SIZE][SIZE], multiplier, i, j;
 
     // Título
     printf("MULTIPLICADOR DE SEGUNDA COLUNA POR ELEMENTO X\n\n");
@@ -24,7 +24,7 @@ int main() {
         for (j = 0; j < SIZE; j++) {
 
             printf("[%d][%d] = ", i + 1, j + 1);
-            scanf("%d", &matrix[i][j]);
+            scanf("%d", &matrixA[i][j]);
         }
 
         printf("\n");
@@ -42,7 +42,7 @@ int main() {
         printf("[\t");
 
         for (j = 0; j < SIZE; j++) {
-            printf("%d ", matrix[i][j]);
+            printf("%d ", matrixA[i][j]);
         }
 
         printf("\t]\n");
@@ -59,10 +59,10 @@ int main() {
 
             // Lógica condicional para modificar segunda coluna
             if(j == 1){
-                matrix[i][j] *= multiplier;
+                matrixA[i][j] *= multiplier;
             }
 
-            printf("%d ", matrix[i][j]);
+            printf("%d ", matrixA[i][j]);
         }
 
         printf("\t]\n");
