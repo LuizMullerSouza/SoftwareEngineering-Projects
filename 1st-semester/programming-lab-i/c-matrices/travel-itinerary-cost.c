@@ -87,6 +87,7 @@ int main() {
         totalCost += costMatrix[origin][destination];
     }
 
+    // Exibição do resultado
     printf("\n------------------------------------------------");
     printf("\nCusto Total de Transporte do Itinerário: %d", totalCost);
     printf("\n------------------------------------------------\n");
