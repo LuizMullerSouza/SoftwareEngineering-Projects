@@ -34,7 +34,7 @@ int main() {
             cin >> inputArray[i];
 
             if (inputArray[i] < 0) {
-                cout << "Erro: não é possível calcular o fatorial de um número < 0. Tente novamente." << endl;
+                cout << "Erro: não é possível calcular o fatorial de um número < 0. Tente novamente.\n" << endl;
             }
 
         } while (inputArray[i] < 0);
