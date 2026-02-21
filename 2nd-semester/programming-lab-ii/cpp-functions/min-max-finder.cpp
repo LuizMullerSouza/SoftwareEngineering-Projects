@@ -5,6 +5,7 @@
 // Constante
 #define SIZE 5
 
+// Importação de ferramentas
 using namespace std;
 
 // Protótipo da função
