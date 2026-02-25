@@ -6,6 +6,7 @@
 // Constante
 #define MAX 100
 
+// Importação de ferramentas
 using namespace std;
 
 // Protótipos das funções
