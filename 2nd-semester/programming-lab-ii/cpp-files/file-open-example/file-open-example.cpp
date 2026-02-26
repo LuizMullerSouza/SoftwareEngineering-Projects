@@ -33,5 +33,5 @@ int main() {
 }
 
 /*
-    Escreva um programa para exemplificar o uso do fopen().
+    Escreva um programa para exemplificar o uso da função fopen().
 */

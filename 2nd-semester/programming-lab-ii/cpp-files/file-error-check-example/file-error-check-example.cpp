@@ -28,7 +28,6 @@ int main() {
     if (filePointer == NULL) {
 
         cout << "Erro na abertura do arquivo. Fim do programa!" << endl;
-        return 1;
 
     } else {
 
@@ -55,5 +54,5 @@ int main() {
 }
 
 /*
-    Escreva um programa para exemplificar o uso do ferror().
+    Escreva um programa para exemplificar o uso da função ferror().
 */
