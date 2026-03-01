@@ -9,7 +9,7 @@
 using namespace std;
 
 // Protótipo da função
-void findMinMax(int numbers[SIZE], int &minValue, int &maxValue);
+void findMinMax(int numbers[], int &minValue, int &maxValue);
 
 // Função principal
 int main() {
@@ -45,7 +45,7 @@ int main() {
 }
 
 // Função que encontra o menor e o maior valor
-void findMinMax(int numbers[SIZE], int &minValue, int &maxValue) {
+void findMinMax(int numbers[], int &minValue, int &maxValue) {
 
     // Loop para varrer o vetor
     for (int i = 0; i < SIZE; i++) {
