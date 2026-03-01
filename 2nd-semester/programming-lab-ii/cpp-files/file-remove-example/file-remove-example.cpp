@@ -16,28 +16,27 @@ int main() {
     FILE *filePointer;
 
     // Título
-    cout << "EXEMPLO - FUNÇÃO exit()\n" << endl;
+    cout << "EXEMPLO - FUNÇÃO remove()\n" << endl;
 
     // Abertura do arquivo em modo de leitura
-    filePointer = fopen("exit().txt", "r");
+    filePointer = fopen("remove().txt", "r");
 
     // Lógica condicional para validar abertura do arquivo
     if (filePointer == NULL) {
-
         cout << "Erro na abertura do arquivo. Fim do programa!" << endl;
-
-        // Função que aborta imediatamente todo o processo do programa
         exit(1);
-
     }
 
     cout << "Arquivo aberto com sucesso!" << endl;
 
     // Fechamento do arquivo
-    if(fclose(filePointer)) {
-        cout << "\nErro no encerramento do arquivo. Fim do programa!" << endl;
+    fclose(filePointer);
+
+    // Função para deletar o arquivo fisicamente do disco
+    if(remove("remove().txt")) {
+        cout << "\nErro na exclusão do arquivo. Fim do programa!" << endl;
     } else {
-        cout << "\nArquivo fechado com sucesso!" << endl;
+        cout << "\nArquivo excluído com sucesso!" << endl;
     }
 
     // Executado com sucesso
@@ -45,5 +44,5 @@ int main() {
 }
 
 /*
-    Escreva um programa para exemplificar o uso da função exit().
+    Escreva um programa para exemplificar o uso da função remove().
 */
