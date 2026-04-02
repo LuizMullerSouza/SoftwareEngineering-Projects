@@ -1,11 +1,5 @@
 # Language Overriding
 *.ALG linguist-language=Pascal
-*.alg linguist-language=Pascal
-
-*.Lmsp linguist-language=Scratch
-*.lmsp linguist-language=Scratch
-
-*.Ino linguist-language=Arduino
 *.ino linguist-language=Arduino
 
 * linguist-detectable=true
