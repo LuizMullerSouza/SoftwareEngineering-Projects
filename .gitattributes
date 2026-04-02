@@ -1,4 +1,0 @@
-# Language Overriding
-*.ino linguist-language=Arduino
-
-* linguist-detectable=true
