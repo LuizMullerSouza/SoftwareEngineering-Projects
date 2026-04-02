@@ -1,7 +1,4 @@
-*.alg linguist-language=Pascal
-*.alg linguist-detectable=true
-*.alg type=code
-
+*.ALG linguist-language=Pascal
+*.ALG linguist-detectable=true
 *.ino linguist-language=Arduino
 *.ino linguist-detectable=true
-*.ino type=code
