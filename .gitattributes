@@ -1,6 +1,4 @@
 *.ALG linguist-language=Pascal
-*.ALG linguist-detectable=true
-
 *.ino linguist-language=Arduino
-*.ino linguist-detectable=true
-*.ino linguist-documentation=false
+
+* linguist-detectable=true
