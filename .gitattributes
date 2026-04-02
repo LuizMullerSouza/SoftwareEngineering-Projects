@@ -1,2 +1,5 @@
-1st-semester/algorithms-i/**/*.alg linguist-language=Pascal
-2nd-semester/algorithms-ii/**/*.alg linguist-language=Pascal
+*.alg linguist-language=Pascal
+*.alg linguist-detectable=true
+
+*.ino linguist-language=Arduino
+*.ino linguist-detectable=true
