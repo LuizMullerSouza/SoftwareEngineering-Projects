@@ -1,8 +1,4 @@
 # Language Overriding
-*.ALG linguist-language=Pascal
-
-*.lmsp linguist-language=JSON
-
-*.ino linguist-language=C++
+*.ino linguist-language=Arduino
 
 * linguist-detectable=true
